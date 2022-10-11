@@ -4,7 +4,7 @@ class UsersController < ApplicationController
     @name = user.name
     @profile = user.profile
     @occupation = user.occupation
-    @occupation = user.position
+    @position = user.position
     @prototypes = user.prototypes
   end
 end
